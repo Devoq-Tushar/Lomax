@@ -1,0 +1,156 @@
+// mixing.scss
+
+
+/* Dashboard card */
+@mixin card-style($bg: $bg-secondary, $radius: 5px) {
+    background: $bg;
+    border-radius: $radius;
+    width: 100%;
+    max-width: 340px;
+    min-height: 187px;
+    cursor: pointer;
+    gap: 20px !important;
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    border: 0;
+
+    @media(max-width: 1200px) {
+        max-width: 350px;
+    }
+
+    @media(max-width: 1100px) {
+        max-width: 310px;
+    }
+
+    @media(max-width: 992px) {
+        max-width: 48%;
+    }
+
+
+    img {
+        object-fit: cover;
+        height: fit-content;
+        width: fit-content;
+
+        @media (max-width: 767px) {
+            height: 30px;
+        }
+    }
+
+    h6 {
+        color: $dark-blue;
+        font-weight: bold;
+    }
+
+    &:hover {
+        background: $dark-blue;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        transform: translateY(-5px);
+
+        h6 {
+            color: $text-white !important;
+        }
+    }
+
+    @media (max-width: 576px) {
+        gap: 16px !important;
+        max-width: 100%;
+        //min-height: auto;
+    }
+}
+
+/* Listing Card */
+@mixin listing-card($padding-desktop: 16px 20px,
+    $padding-mobile: 14px 16px,
+    $border-radius: 5px,
+    $btn-color: $text-white,
+    $border-color: $border-primary) {
+    .materials-listing {
+        padding: $padding-desktop;
+        border-radius: $border-radius;
+
+        @media (max-width: 767px) {
+            padding: $padding-mobile;
+        }
+
+        .listing-files {
+            img {
+                @media (max-width: 767px) {
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    ul {
+        padding: 16px 25px;
+        border: 1px solid $border-color;
+
+        li {
+            img {
+                @media (max-width: 767px) {
+                    height: 20px;
+                }
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+/* SA Card */
+@mixin sa-partner-card() {
+    border: none;
+    background-color: $bg-secondary;
+    padding: 20px 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    width: 100%;
+
+    @media(max-width: 1024px) {
+        flex: 1 1 calc(33.33% - 16px);
+    }
+
+    @media(max-width: 767px) {
+        flex: 1 1 calc(100%);
+        padding: 16px;
+    }
+
+    span {
+        color: $dark-blue;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .card-inner {
+        p {
+            font-size: 32px;
+            color: $orange;
+            font-weight: 600;
+            line-height: 24px;
+
+            @media(max-width: 767px) {
+                font-size: 24px;
+                line-height: 20px;
+            }
+        }
+
+        img {
+            @media(max-width: 767px) {
+                height: 24px;
+            }
+        }
+    }
+}

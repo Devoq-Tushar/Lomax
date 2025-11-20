@@ -1,0 +1,10 @@
+.certificate-main {
+    img {
+        height: 580px;
+
+        @media(max-width: 1024px) {
+            height: auto;
+            width: 100%;
+        }
+    }
+}

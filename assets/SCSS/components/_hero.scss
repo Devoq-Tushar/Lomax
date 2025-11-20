@@ -1,0 +1,38 @@
+.banner-section {
+
+    .banner-inner {
+        position: relative;
+        overflow: hidden;
+        min-height: 324px;
+
+        @media(max-width: 767px) {
+            min-height: 100%;
+            padding: 0px 24px;
+            min-height: 150px;
+        }
+
+        img {
+            width: 292px;
+            height: 337px;
+
+            @media(max-width: 767px) {
+                width: 200px;
+                height: 250px;
+                top: 20% !important;
+                left: 30% !important;
+            }
+        }
+
+        .absolute {
+            position: absolute;
+            top: -10px;
+            left: 97px;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+}

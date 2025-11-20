@@ -1,0 +1,63 @@
+.card-secondary-main {
+    width: 100%;
+    background-color: $bg-secondary;
+    border-radius: 8px;
+    padding: 32px;
+
+    @media(max-width: 767px) {
+        padding: 16px !important;
+    }
+
+    .card-secondary {
+        width: 100%;
+        max-width: 334px;
+        background-color: $bg-white;
+        padding: 12px !important;
+        border-radius: 5px;
+
+        @media(min-width: 992px) and (max-width: 1200px) {
+            max-width: 48%;
+        }
+
+        @media(min-width: 768px) and (max-width: 991px) {
+            max-width: 47%;
+        }
+
+
+        @media(max-width: 767px) {
+            max-width: 100%;
+        }
+
+        .card-secondary-img {
+            border-radius: 3px;
+            height: 317px;
+
+            @media(max-width: 767px) {
+                height: 200px;
+            }
+
+            img {
+                @media(max-width: 767px) {
+                    height: 90px;
+                }
+            }
+        }
+
+        h6 {
+            line-height: 30px;
+
+            @media(max-width: 767px) {
+                line-height: 21px;
+            }
+        }
+
+        .card-btn {
+            padding: 10px 33px;
+            color: $text-white;
+            border: none !important;
+            background: $dark-blue;
+            border-radius: 5px;
+        }
+
+    }
+}

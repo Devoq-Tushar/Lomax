@@ -1,0 +1,122 @@
+.sa-card-section {
+    max-width: 1170px;
+    padding: 60px 20px !important;
+
+    @media(max-width: 1024px) {
+        padding: 30px !important;
+    }
+
+    @media(max-width: 767px) {
+        padding: 24px !important;
+    }
+
+    .filter-inner {
+        flex-wrap: wrap;
+
+        @media(max-width: 767px) {
+            justify-content: center !important;
+        }
+    }
+
+    .parter-card {
+        gap: 45px !important;
+
+        @media(max-width: 767px) {
+            gap: 30px !important;
+        }
+
+        .global-parter-card-main {
+            gap: 10px;
+
+            span {
+                color: $dark-blue;
+                font-weight: 700;
+            }
+
+            .parter-card-inner {
+
+                @media(max-width: 1024px) {
+                    flex-wrap: wrap;
+                    justify-content: start !important;
+                }
+
+                .card {
+                    border: none;
+                    background-color: $dark-blue;
+                    padding: 20px 24px;
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: center;
+                    gap: 3px;
+                    width: 100%;
+
+                    @media(max-width: 1024px) {
+                        flex: 1 1 calc(33.33% - 16px);
+                    }
+
+                    @media(max-width: 767px) {
+                        flex: 1 1 calc(100%);
+                        padding: 16px;
+                    }
+
+                    span {
+                        color: $bg-white;
+                        font-weight: 700;
+                        line-height: 22px;
+                    }
+
+                    .card-inner {
+                        p {
+                            font-size: 32px;
+                            color: $bg-white;
+                            font-weight: 600;
+                            line-height: 24px;
+
+                            @media(max-width: 767px) {
+                                font-size: 24px;
+                                line-height: 20px;
+                            }
+                        }
+
+                        img {
+                            @media(max-width: 767px) {
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .country-parter-card-main {
+            gap: 35px;
+
+            @media(max-width: 767px) {
+                gap: 24px;
+
+            }
+
+            .country-parter-card {
+                gap: 10px;
+
+                span {
+                    color: $dark-blue;
+                    font-weight: 700;
+                }
+
+                .parter-card-inner {
+
+                    @media(max-width: 1024px) {
+                        flex-wrap: wrap;
+                        justify-content: start !important;
+                    }
+
+                    .card {
+                        @include sa-partner-card();
+                    }
+                }
+            }
+        }
+
+    }
+}

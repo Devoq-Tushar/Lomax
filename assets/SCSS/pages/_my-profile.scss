@@ -1,0 +1,20 @@
+    .download-certificat {
+        padding: 15px 32px;
+
+        @media(max-width: 767px) {
+            padding: 16px;
+        }
+
+        img {
+            height: 128px;
+        }
+
+    }
+
+    .delete-account {
+        padding: 32px 0px;
+
+        @media(max-width: 767px) {
+            padding: 0px !important;
+        }
+    }

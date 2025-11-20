@@ -1,0 +1,57 @@
+.lomax-header {
+    background-color: $text-white;
+
+    .lomax-header-inner {
+        padding: 28px 30px !important;
+
+        @media(max-width: 767px) {
+            padding: 24px !important;
+        }
+    }
+
+    .user-profile {
+        @media(max-width: 767px) {
+            img {
+                margin-top: -11px;
+            }
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    &.sticky-top {
+        z-index: 1030;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .lomax-logo {
+        height: 44px;
+
+        @media(max-width: 767px) {
+            height: 25px;
+        }
+    }
+
+    .back-link {
+        text-decoration: none;
+        margin-left: 50px;
+
+        @media(max-width: 767px) {
+            margin-left: 0px;
+        }
+    }
+
+    .support-hub {
+        background: $bg-black;
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 10px 90px !important;
+
+        @media(max-width: 767px) {
+            padding: 8px 24px !important;
+        }
+    }
+}

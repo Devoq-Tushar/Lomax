@@ -1,0 +1,63 @@
+.btn-primary {
+    width: fit-content;
+    color: $text-white !important;
+    padding: 10px 24px !important;
+    background-color: $dark-blue;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    @media(max-width: 767px) {
+        padding: 6px 16px !important;
+        font-size: 14px;
+    }
+}
+
+.btn-secondary {
+    width: fit-content;
+    color: $text-white !important;
+    padding: 10px 24px !important;
+    background-color: $orange;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    @media(max-width: 767px) {
+        padding: 6px 16px !important;
+        font-size: 14px;
+    }
+}
+
+.btn-outline {
+    width: fit-content;
+    border: 1px solid $dark-blue !important;
+    padding: 10px 17px !important;
+    background-color: $bg-white;
+    color: $dark-blue;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+
+    @media(max-width: 767px) {
+        padding: 6px 12px !important;
+        font-size: 14px;
+    }
+}
+
+
+.text-button {
+    background: none;
+    border: none;
+    padding: 10px 0px;
+    color: $dark-blue;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+    @media(max-width: 767px) {
+        padding: 6px 0px !important;
+        font-size: 14px;
+    }
+}

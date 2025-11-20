@@ -1,0 +1,40 @@
+/* abstracts */
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+/* base */
+@import 'base/typography';
+
+/* components */
+@import 'components/utilities';
+@import 'components/cards';
+@import 'components/custom_table';
+@import 'components/hero';
+@import 'components/note';
+@import 'components/form';
+@import 'components/card-secondary';
+@import 'components/marketing-card';
+@import 'components/profile-popup';
+@import 'components/button';
+@import 'components/sa-banner';
+
+/* page */
+@import 'pages/my-profile';
+@import 'pages/quiz';
+@import 'pages/certificate';
+@import 'pages/pricing-table';
+@import 'pages/super-admin';
+
+/* layout*/
+@import 'layout/header';
+@import 'layout/footer';
+
+
+
+/* SCSS to CSS commend */
+// sass --watch scss/main.scss:css/style.min.css --style=compressed --no-source-map
+
+
+/* Bootstrap to CSS commend */
+// sass --watch scss/vendors/bootstrap/bootstrap.scss:css/bootstrap.min.css --style=compressed --no-source-map

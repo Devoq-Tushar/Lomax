@@ -1,0 +1,62 @@
+.section-main-inner {
+    padding: 60px 20px !important;
+    max-width: 1170px;
+
+    @media(max-width: 767px) {
+        padding: 24px !important;
+    }
+
+    .form {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        @media(max-width: 767px) {
+            padding: 16px;
+            gap: 16px;
+        }
+
+        .map-img {
+            width: 100%;
+            max-width: 375px;
+
+            @media(max-width: 767px) {
+                height: 250px;
+            }
+        }
+
+        input {
+            color: $text-secondary !important;
+            padding: 9.3px 20px;
+
+            @media(max-width: 767px) {
+                padding: 6px 16px;
+            }
+        }
+
+        select {
+            color: $text-secondary !important;
+            padding: 9.3px 20px;
+
+            @media(max-width: 767px) {
+                padding: 6px 16px;
+            }
+        }
+
+        .form-check-input {
+            cursor: pointer;
+            width: 26px;
+            height: 26px;
+            padding: 0px !important;
+        }
+
+        .no-resize {
+            resize: none;
+            max-height: calc(1.5em * 4);
+            overflow-y: auto;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.footer {
+    background: linear-gradient(to bottom right, #1d2229 25%, #000 75%);
+    padding: 80px 30px 34px;
+
+    @media(max-width: 767px) {
+        padding: 24px 24px;
+    }
+
+    .lomax-logo-footer {
+        height: 90px;
+
+        @media(max-width: 767px) {
+            height: 50px;
+        }
+    }
+
+    .copyright {
+        text-align: left;
+
+        @media(max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    h5 {
+        @media(max-width: 767px) {
+            line-height: 30px;
+            margin: 0 !important;
+        }
+    }
+}

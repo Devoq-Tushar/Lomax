@@ -1,0 +1,280 @@
+// pricing table styles
+.pricing-table-wrapper {
+    width: 100%;
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .pricing-table-content {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid $border-table;
+        background: $bg-white;
+        table-layout: fixed;
+        min-width: 1060px;
+
+        @media(max-width: 767px) {
+            min-width: 800px;
+        }
+
+        th,
+        td {
+            border: 1px solid $border-table;
+            vertical-align: middle;
+        }
+
+        thead {
+
+            // Top header row: titles + subtitles
+            th {
+                background: $bg-white;
+                text-transform: uppercase;
+                color: $dark-blue;
+                text-align: center;
+                padding: 9px 14px;
+                border: 1px solid $border-table;
+                vertical-align: middle;
+
+                @media(max-width: 767px) {
+                    padding: 6px 12px;
+                }
+
+                &.features-col {
+                    text-align: left;
+                    padding: 20px 24px;
+                    color: $text-dark-gray;
+                    vertical-align: middle;
+                    font-size: 16px;
+
+                    @media(max-width: 767px) {
+                        padding: 16px 16px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            // Plan title + subtitle container
+            .plan-head {
+                .plan-title {
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: $dark-blue;
+
+                    @media(max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .plan-sub {
+                    font-size: 11px;
+                    font-weight: 600;
+                    color: $text-dark-gray;
+                    text-transform: uppercase;
+
+                    @media(max-width: 767px) {
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            .silver {
+                background-color: $bg-cart1;
+
+                .plan-title {
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: $text-white !important;
+
+                    @media(max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .plan-sub {
+                    font-size: 11px;
+                    font-weight: 600;
+                    color: $text-white !important;
+                    text-transform: uppercase;
+
+                    @media(max-width: 767px) {
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            .gold {
+                background-color: $bg-cart2;
+
+                .plan-title {
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: $text-white !important;
+
+                    @media(max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .plan-sub {
+                    font-size: 11px;
+                    font-weight: 600;
+                    color: $text-white !important;
+                    text-transform: uppercase;
+
+                    @media(max-width: 767px) {
+                        font-size: 11px;
+                    }
+                }
+            }
+
+            // Highlight left top cell
+            th:first-child {
+                background: $bg-white;
+            }
+
+            // Price row below header
+            .price-row td {
+                background: $bg-gray;
+                border: 1px solid $border-table;
+                padding: 13.5px 24px;
+                text-align: center;
+
+                @media(max-width: 767px) {
+                    padding: 12px 12px;
+                }
+
+                .price-cell {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    gap: 0.4rem;
+                    flex-wrap: wrap;
+                }
+
+                .price-symbol {
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: $dark-blue;
+                    line-height: 1.1;
+                    margin-top: 10px;
+
+                    @media(max-width: 767px) {
+                        font-size: 18px;
+                        line-height: 1;
+                    }
+                }
+
+                .price-value {
+                    font-size: 58px;
+                    font-weight: 800;
+                    color: $orange-dark;
+
+                    @media(max-width: 767px) {
+                        font-size: 40px;
+                    }
+                }
+
+                .price-period {
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: $dark-blue;
+                    text-transform: lowercase;
+                    margin-top: 35px;
+
+                    @media(max-width: 767px) {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        tbody {
+
+            // standard feature rows
+            td {
+                background: $bg-white;
+                color: $text-dark-gray;
+                padding: 12px;
+
+                @media(max-width: 767px) {
+                    padding: 12px;
+                }
+
+                &.features-col {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 12px;
+                    padding: 12px 20px;
+                    line-height: 16px;
+
+                    @media(max-width: 767px) {
+                        font-size: 14px;
+                        padding: 16px 16px;
+                    }
+                }
+            }
+
+            // badges
+            .badge {
+                display: inline-block;
+                font-size: 12px;
+                padding: 6px 8px;
+                border-radius: 6px;
+                font-weight: 700;
+
+                @media(max-width: 767px) {
+                    font-size: 12px;
+                    padding: 5px 6px;
+                    font-weight: 600;
+                }
+            }
+
+            .cert {
+                background: $bg-cart1;
+                color: $text-white;
+                margin-left: 5px;
+            }
+
+            .cert-gold {
+                background: $bg-cart2;
+                color: $text-white;
+                margin-left: 5px;
+
+            }
+
+            // final action row (buttons)
+            .action-row td {
+                background: $bg-white;
+                padding: 11.5px 30px;
+
+                @media(max-width: 767px) {
+                    padding: 9px 20px;
+                }
+            }
+
+            .confirm-btn {
+                width: 100%;
+                max-width: 320px;
+                background: $orange-dark;
+                color: $bg-white;
+                border: none;
+                padding: 13px 20px;
+                border-radius: 6px;
+                font-weight: 600;
+                text-transform: none;
+                font-size: 16px;
+                box-shadow: none;
+                gap: 10px;
+
+
+                @media(max-width: 767px) {
+                    padding: 8px 0px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+}

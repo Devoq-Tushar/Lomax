@@ -1,0 +1,213 @@
+.quiz-item {
+
+    border-bottom: 1px solid $border-primary;
+    padding-bottom: 32px;
+
+    .quize-img {
+        width: 100%;
+        max-width: 380px;
+
+        img {
+            width: 100%;
+            height: auto;
+
+            @media(max-width:767px) {
+                height: 200px;
+            }
+        }
+    }
+
+    .quize-main {
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+
+        @media(max-width:767px) {
+            max-width: 100%;
+            gap: 24px;
+        }
+    }
+
+    .quize-img-info {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        @media(max-width:767px) {
+            gap: 10px;
+        }
+
+        .quize-img-title {
+            font-weight: 700;
+            font-size: 20px;
+            color: $dark-blue;
+
+            @media(max-width:767px) {
+                font-size: 16px;
+            }
+        }
+
+        .quize-img-desc {
+            font-weight: 500;
+            color: $text-secondary;
+            font-size: 16px;
+            line-height: 19px;
+
+            @media(max-width:767px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .quize-que-ans-main {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        @media(max-width:767px) {
+            gap: 14px;
+        }
+
+        .quize-que-main {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            @media(max-width:767px) {
+                gap: 12px;
+            }
+
+            .quize-que-title {
+                font-weight: 500;
+                font-size: 20px;
+                color: $dark-blue;
+
+                @media(max-width:767px) {
+                    font-size: 16px;
+                }
+            }
+
+            .quize-que {
+                font-weight: 500;
+                color: $text-secondary;
+                font-size: 16px;
+                line-height: 19px;
+
+                @media(max-width:767px) {
+                    font-size: 14px;
+                    line-height: 19px;
+                }
+            }
+        }
+
+        .quize-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+
+            @media(max-width:767px) {
+                gap: 10px;
+            }
+
+            button {
+                display: block;
+                width: 100%;
+                padding: 8.34px;
+                text-align: center;
+                border: 1px solid $text-secondary;
+                border-radius: 5px;
+                background-color: $bg-white;
+                transition: all 0.2s ease;
+                font-weight: 500;
+                color: $text-secondary;
+                font-size: 16px;
+
+                @media(max-width:767px) {
+                    padding: 6px;
+                    font-size: 14px;
+                    line-height: 19px;
+                }
+
+                &:hover {
+                    background-color: $orange;
+                    color: $text-white;
+                    border-color: $orange;
+                }
+
+                &.correct {
+                    background-color: $text-success !important;
+                    color: $text-white !important;
+                    border-color: $text-success;
+                }
+
+                &.incorrect {
+                    background-color: $text-red !important;
+                    color: $text-white !important;
+                }
+            }
+        }
+    }
+
+    .feedback {
+        display: none;
+        font-weight: 600;
+
+        &.show {
+            display: block;
+        }
+
+        .feedback-row {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+            @media(max-width:767px) {
+                gap: 6px;
+            }
+
+            img {
+                width: 16px;
+                height: 15px;
+                margin-top: 5px;
+
+                @media(max-width:767px) {
+                    width: 12px;
+                    height: 13px;
+                    margin-top: 3px;
+                }
+            }
+
+            .feedback-text {
+                font-size: 16px;
+                font-weight: 700;
+
+                @media(max-width:767px) {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &.success .feedback-text {
+            color: $text-success;
+            line-height: 19px;
+
+            @media(max-width:767px) {
+                line-height: 16px;
+            }
+        }
+
+        &.error .feedback-text {
+            color: $text-red;
+            line-height: 19px;
+
+            @media(max-width:767px) {
+                line-height: 16px;
+            }
+        }
+    }
+
+}

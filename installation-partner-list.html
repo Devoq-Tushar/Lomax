@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lomax System Support Hub</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/CSS/style.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="main">
+        <!-- HEADER -->
+        <header class="shadow-sm sticky-top lomax-header">
+            <div
+                class="container-flued d-flex justify-content-between align-items-center p-6 flex-wrap lomax-header-inner">
+                <!-- Logo + Back -->
+                <div class="d-flex align-items-center">
+                    <a href="index.html">
+                        <img src="assets/images/lomax_logo.svg" alt="Lomax Logo" class="lomax-logo me-3" />
+                    </a>
+                    <a href="index.html" class="text-uppercase fs-14 fw-bold text-orange back-link">Back to Home</a>
+                </div>
+
+                <!-- User -->
+                <div class="user-profile-wrapper">
+
+                    <div class="d-flex align-items-center mt-3 mt-md-0 user-profile" tabindex="0" role="button"
+                        aria-haspopup="true" aria-expanded="false" aria-controls="userMenu">
+                        <span class="fw-bold text-gray me-2 text-nowrap fs-14">MARK LOMAX</span>
+                        <img src="assets/images/user-profile-icon.svg" alt="" class="user-profile-icon">
+                    </div>
+                    <!-- Popup menu -->
+                    <nav id="userMenu" class="user-menu" role="menu" aria-hidden="true">
+                        <ul class="list-unstyled mb-0 user-menu-list">
+                            <li role="none">
+                                <a role="menuitem" href="my-profile.html"
+                                    class="user-menu-link d-flex align-items-center">
+                                    <img src="assets/images/profile-icn.svg" alt="" class="user-menu-icon">
+                                    <span>My Profile</span>
+                                </a>
+                            </li>
+
+                            <li class="menu-divider" role="separator"></li>
+
+                            <li role="none">
+                                <a role="menuitem" href="support.html" class="user-menu-link d-flex align-items-center">
+                                    <img src="assets/images/help-icn.svg" alt="" class="user-menu-icon">
+                                    <span>Help/Support</span>
+                                </a>
+                            </li>
+
+                            <li class="menu-divider" role="separator"></li>
+
+                            <li role="none">
+                                <button type="button" role="menuitem"
+                                    class="user-menu-link d-flex align-items-center logout-btn">
+                                    <img src="assets/images/logout-icn.svg" alt="" class="user-menu-icon">
+                                    <span>Logout</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="training-note">
+                <div class="container text-left">
+                    <span class="text-white fs-18 fw-bold">
+                        LOMAX SYSTEM SUPPORT HUB - ADMIN
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- banner -->
+        <div class="sa-banner-section">
+            <section
+                class="container text-center text-white d-flex flex-column justify-content-center align-items-center hero sa-banner-inner">
+                <h1 class="fw-bold fs-55">Installation Partners - All</h1>
+            </section>
+        </div>
+        <div class="section-main">
+            <!-- MAIN GRID -->
+            <section class="container d-flex flex-column gap-5 sa-card-section">
+
+                <!-- FILTER -->
+                <div class="filter-inner d-flex justify-content-end align-items-center gap-4 w-100">
+                    <button class="text-button">USA</button>
+                    <div class="dropdown">
+                        <button class="btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            CHANGE COUNTRY
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All Countries</a></li>
+                            <li><a class="dropdown-item" href="#">Australia</a></li>
+                            <li><a class="dropdown-item" href="#">UAE</a></li>
+                            <li><a class="dropdown-item" href="#">UK</a></li>
+                            <li><a class="dropdown-item" href="#">USA</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn-primary">ADD NEW INSTALLATION PARTNER +</button>
+                    <button class="btn-primary">ADD NEW PERSONNEL +</button>
+                </div>
+
+                <!-- PARTNER LISTING -->
+                <div class="parter-card d-flex flex-column">
+                    <!-- COUNTRY PARTNER -->
+                    <div class="country-parter-card-main d-flex flex-column w-100">
+
+                        <!-- Australia partner -->
+                        <div class="country-parter-card d-flex flex-column w-100">
+                            <div class="parter-card-inner d-flex justify-content-center align-items-center gap-8">
+                                <div class="card">
+                                    <span class="fs-20">Installation Partners</span>
+                                    <div class="card-inner d-flex justify-content-between align-items-center">
+                                        <p>680</p>
+                                        <img src="assets/images/partner-icn.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <span class="fs-20">Certified Personnel</span>
+                                    <div class="card-inner d-flex justify-content-between align-items-center">
+                                        <p>3,440</p>
+                                        <img src="assets/images/users-icn.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <span class="fs-20">Revenue</span>
+                                    <div class="card-inner d-flex justify-content-between align-items-center">
+                                        <p>$154,256</p>
+                                        <img src="assets/images/doller-icn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- FOOTER -->
+        <footer
+            class="footer d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-white gap-3 gap-md-7 w-100">
+            <div class="container d-flex flex-column gap-7">
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100 gap-2 gap-md-0">
+                    <a href="index.html">
+                        <img src="assets/images/lo_max-footer_logo.svg" alt="Lomax Logo" class="lomax-logo-footer" />
+                    </a>
+                    <p class="small mb-0 fs-20 fw-semibold">
+                        For help and questions contact us:
+                        <a href="mailto:info@lomaxsystem.com" class="text-orange">info@lomaxsystem.com</a>
+                    </p>
+                </div>
+                <p class="small fs-14 fw-ragular text-light-gray mb-0 copyright">
+                    Copyright © 2025 Lomax® System Pty Ltd
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/navigation.js"></script>
+    <script src="assets/JS/profile-popup.js"></script>
+    <script src="assets/JS/role-based-access.js"></script>
+
+
+</body>
+
+</html>

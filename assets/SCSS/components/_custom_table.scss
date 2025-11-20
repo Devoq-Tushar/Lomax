@@ -1,0 +1,83 @@
+/* TAble SCSS */
+.invite-team {
+    .table-responsive {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+
+
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+
+            thead {
+                th {
+                    text-align: left;
+                    border-bottom: 1px solid $border-secondary;
+                    font-size: 1rem;
+                }
+            }
+
+            tbody {
+                td {
+                    text-align: left;
+                    padding: 5.2px 12px;
+                    border: 1px solid $border-secondary; // full borders around all sides
+                    vertical-align: middle;
+                    color: $text-turnary;
+                }
+
+                .delete-button {
+                    width: fit-content;
+                    color: $text-white !important;
+                    padding: 9.5px 11px !important;
+                    border: 1px solid $dark-blue !important;
+                    border-radius: 5px;
+                    white-space: nowrap;
+                    background-color: $bg-white;
+
+                    @media(max-width: 767px) {
+                        padding: 5px 6.5px !important;
+
+                    }
+                }
+            }
+
+            td:nth-child(1) {
+                width: 220px;
+            }
+
+            td:nth-child(2) {
+                width: 180px;
+            }
+
+            td:nth-child(3) {
+                width: 280px;
+            }
+
+            td:nth-child(4) {
+                width: 90px;
+            }
+
+            td:nth-child(5) {
+                width: 90px;
+            }
+
+            td:last-child {
+                width: 280px;
+            }
+
+            @media (max-width: 767px) {
+
+                td,
+                th {
+                    width: auto !important;
+                    white-space: nowrap !important;
+                }
+
+                table {
+                    table-layout: auto !important;
+                }
+            }
+        }
+    }
+}

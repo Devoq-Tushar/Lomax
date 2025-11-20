@@ -1,0 +1,11 @@
+// @use 'abstracts/variables';
+
+.training-note {
+    background-color: $orange;
+    letter-spacing: 0.5px;
+    padding: 7.5px 64px;
+
+    @media(max-width: 767px) {
+        padding: 6px 24px;
+    }
+}
