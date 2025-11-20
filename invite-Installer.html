@@ -36,6 +36,7 @@
 
                     <div class="d-flex align-items-center mt-3 mt-md-0 user-profile" tabindex="0" role="button"
                         aria-haspopup="true" aria-expanded="false" aria-controls="userMenu">
+                        <span class="fw-bold text-gray me-2 text-nowrap fs-14">MARK JACKSON (ADMIN)</span>
                         <img src="assets/images/user-profile-icon.svg" alt="" class="user-profile-icon">
                     </div>
                     <!-- Popup menu -->
@@ -96,40 +97,77 @@
                 style="background: url('assets/images/lomax-welcom-section-bg-img.png') center/cover no-repeat;">
                 <img src="assets/images/LomaxRender-welcom-section-img.png" alt="" class="absolute">
                 <div class="hero-content position-relative">
-                    <h1 class="fw-bold fs-55">Welcome to the <br /> Lomax System Support Hub</h1>
+                    <h1 class="fw-bold fs-55">Invite Installers for Training</h1>
                 </div>
             </section>
         </div>
-
 
         <div class="section-main">
-            <!-- MAIN GRID -->
-            <section
-                class="container d-flex flex-column justify-content-center align-items-center section-main-inner gap-8">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-4">
-                    <h3 class="text-dark-blue fw-bold fs-30">Reset Your Account Password</h3>
-                    <p class="text-muted fs-18 text-gray-desc">Access your Support Hub account.</p>
-                </div>
 
-                <form id="sign-up-form" class="bg-form form rounded-3 w-100" style="max-width: 684px;">
-                    <div class="text-start w-100">
-                        <input type="email" id="emailInput" class="fs-16 fw-medium form-control text-center"
-                            placeholder="Enter your email" required />
-                    </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-5">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <button type="submit" class="btn-primary">NEXT</button>
+            <!-- MAIN GRID -->
+            <section class="container d-flex flex-column justify-content-center align-items-center section-main-inner">
+                <div class="d-flex flex-column align-items-center justify-content-center gap-10">
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-10">
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                            <h3 class="text-dark-blue fw-bold fs-30">Invite Installers for Training</h3>
+                            <p class="fs-18 text-gray-desc text-center" style="max-width: 800px;">Manage your installer
+                                training process by
+                                inviting team members to upcoming training sessions. Track their status and ensure your
+                                team is certified and ready to go.
+                            </p>
                         </div>
-                        <span class="text-gray-desc fw-medium fs-16 text-center" style="max-width: 444px;">If
-                            you do not have a login contact your company administrator, or email
-                            <a href="mailto:info@lomaxsystem.com"
-                                class="text-gray-desc fw-medium fs-16 text-center text-decoration-none">info@lomaxsystem.com</a></span>
+                        <form class="bg-form form rounded-3 w-100">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="fs-16 fw-medium form-control mt-md-0 mt-2"
+                                        placeholder="First Name" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="fs-16 fw-medium form-control" placeholder="Last Name"
+                                        required />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="fs-16 fw-medium form-control" placeholder="Email"
+                                        required />
+                                </div>
+                                <div class="col-md-6">
+                                    <select id="adminSelect" class="form-select fs-16 fw-medium text-gray-desc"
+                                        required>
+                                        <option value="" disabled selected>Training Session
+                                        </option>
+                                        <option value="morning">Morning</option>
+                                        <option value="evening">Evening</option>
+                                        <option value="afternoon">Afternoon</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="date" class="fs-16 fw-medium form-control" placeholder="Training Date"
+                                        required />
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea rows="4" class="fs-16 fw-medium form-control no-resize"
+                                        placeholder="Notes (optional)"></textarea>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="d-flex justify-content-start align-items-center gap-3 w-100">
+                            <button type="submit" class="btn-primary">SEND INVITE</button>
+                            <button type="submit" class="btn-outline">CANCEL</button>
+                        </div>
                     </div>
-                </form>
+                </div>
+            </section>
+
+            <!-- SUCCESS NOTE  -->
+            <section class="success-note bg-success p-6 text-center p-5">
+                <div class="container text-left">
+                    <span class="text-white fs-18 fw-bold">
+                        Invitation sent successfully!
+                    </span>
+                </div>
             </section>
         </div>
-
-
         <!-- FOOTER -->
         <footer
             class="footer d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-white gap-3 gap-md-7 w-100">
@@ -155,7 +193,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
-    <script src="assets/JS/email.js"></script>
 </body>
 
 </html>

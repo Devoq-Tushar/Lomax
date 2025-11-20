@@ -1,7 +1,10 @@
 /login               /login.html            200
-/sign-up               /sign-up.html            200
-/create-password               /create-password.html            200
-/forgot-password               /forgot-password.html            200
+/login               /login.html            200
+/sign-up             /sign-up.html            200
+/sign-up             /sign-up.html            200
+/create-password     /create-password.html            200
+/forgot-password     /forgot-password.html            200
+/forgot-password     /forgot-password.html            200
 /member-dashboard    /member-dashboard.html 200
 /my-profile          /my-profile.html       200
 /my-team             /my-team.html          200

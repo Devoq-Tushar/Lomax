@@ -36,6 +36,7 @@
 
                     <div class="d-flex align-items-center mt-3 mt-md-0 user-profile" tabindex="0" role="button"
                         aria-haspopup="true" aria-expanded="false" aria-controls="userMenu">
+                        <span class="fw-bold text-gray me-2 text-nowrap fs-14">MARK JACKSON (ADMIN)</span>
                         <img src="assets/images/user-profile-icon.svg" alt="" class="user-profile-icon">
                     </div>
                     <!-- Popup menu -->
@@ -107,19 +108,24 @@
             <section
                 class="container d-flex flex-column justify-content-center align-items-center section-main-inner gap-8">
                 <div class="d-flex flex-column justify-content-center align-items-center gap-4">
-                    <h3 class="text-dark-blue fw-bold fs-30">Reset Your Account Password</h3>
+                    <h3 class="text-dark-blue fw-bold fs-30">Login</h3>
                     <p class="text-muted fs-18 text-gray-desc">Access your Support Hub account.</p>
                 </div>
 
-                <form id="sign-up-form" class="bg-form form rounded-3 w-100" style="max-width: 684px;">
+                <form class="bg-form form rounded-3 w-100" style="max-width: 684px;">
                     <div class="text-start w-100">
-                        <input type="email" id="emailInput" class="fs-16 fw-medium form-control text-center"
-                            placeholder="Enter your email" required />
+                        <input type="email" class="fs-16 fw-medium form-control" placeholder="Email" required />
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-5">
+                    <div class="text-start w-100">
+                        <input type="password" class="fs-16 fw-medium form-control" placeholder="Password" required />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-4">
                         <div class="d-flex justify-content-center align-items-center">
-                            <button type="submit" class="btn-primary">NEXT</button>
+                            <button type="submit" class="btn-primary">LOGIN</button>
                         </div>
+                        <a href="forgot-password.html"
+                            class="d-flex justify-content-center align-items-center text-gray-desc fw-medium fs-16">Forgot
+                            password?</a>
                         <span class="text-gray-desc fw-medium fs-16 text-center" style="max-width: 444px;">If
                             you do not have a login contact your company administrator, or email
                             <a href="mailto:info@lomaxsystem.com"
@@ -155,7 +161,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
-    <script src="assets/JS/email.js"></script>
 </body>
 
 </html>
