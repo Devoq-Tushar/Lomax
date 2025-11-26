@@ -13,12 +13,12 @@
     <!-- <link rel="stylesheet" href="css/utilities.css" /> -->
 
     <link rel="stylesheet" href="assets/CSS/style.min.css" />
-
 </head>
 
-<body class="bg-white">
+<body>
 
     <div class="main">
+
         <!-- HEADER -->
         <header class="shadow-sm sticky-top lomax-header">
             <div
@@ -90,50 +90,69 @@
             </div>
         </header>
 
-
         <!-- banner -->
         <div class="banner-section">
             <section
                 class="text-center text-white d-flex flex-column justify-content-center align-items-center hero banner-inner"
                 style="background: url('assets/images/lomax-welcom-section-bg-img.png') center/cover no-repeat;">
                 <img src="assets/images/LomaxRender-welcom-section-img.png" alt="" class="absolute">
-                <div class="hero-content position-relative d-flex flex-column gap-4">
-                    <h1 class="fw-bold fs-55">support</h1>
-                    <p style="max-width: 430px;">Your centralised hub for everything you and your team need to
-                        confidently install, promote, and
-                        support Lomax products.</p>
+                <div class="hero-content position-relative">
+                    <h1 class="fw-bold fs-55">Become a Lomax Certified <br> Installation Partner</h1>
                 </div>
             </section>
         </div>
 
         <div class="section-main">
 
-            <!-- ALERT NOTE -->
-            <section class="training-note bg-green">
-                <div
-                    class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center align-items-start gap-3">
-                    <span class="text-white fs-18 fw-bold">
-                        YOUR PERSONAL TRAINING STATUS: TRAINING REQUIRED
-                    </span>
-                    <span class="text-white fs-18 fw-bold">
-                        DAYS UNTIL CERTIFICATION EXPIRES: 224 DAYS
-                    </span>
-                </div>
-            </section>
-
-
             <!-- MAIN GRID -->
-            <section
-                class="container d-flex flex-column justify-content-center align-items-center w-100 section-main-inner">
-                <div class="d-flex flex-column align-items-center justify-content-center gap-8 w-100">
-                    <h3 class="text-dark-blue fw-bold fs-30 text-center">Email us for any help or support question</h3>
-                    <a href="mailto:info@lomaxsystem.com"
-                        class="text-dark-blue fw-bold fs-20 text-center">info@lomaxsystem.com</a>
+            <section class="container d-flex flex-column justify-content-center align-items-center section-main-inner">
+                <div class="d-flex flex-column align-items-center justify-content-center gap-10">
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-10">
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                            <h3 class="text-dark-blue fw-bold fs-30">Payment Details</h3>
+                            <p class="fs-18 text-gray-desc text-center desc-max-width">Enter your payment information to
+                                continue.</p>
+                        </div>
+                        <form class="bg-form form rounded-3 w-100">
+                            <div class="row g-4">
+                                <div class="col-md-12">
+                                    <input type="text" class="fs-16 fw-medium form-control mt-md-0 mt-2"
+                                        placeholder="Cardholder Name" required />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="fs-16 fw-medium form-control" placeholder="Card Number"
+                                        required />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date" class="fs-16 fw-medium form-control" placeholder="Expiry Date"
+                                        required />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="fs-16 fw-medium form-control" placeholder="CVV"
+                                        required />
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="d-flex justify-content-start align-items-center gap-3 w-100">
+                            <button type="submit" class="btn-outline">Back</button>
+                            <button type="submit" class="btn-primary fw-semibold"
+                                style="text-transform: uppercase;">Proceed to
+                                Review</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
+            <!-- SUCCESS NOTE  -->
+            <section class="success-note bg-success p-6 text-center p-5">
+                <div class="container text-left">
+                    <span class="text-white fs-18 fw-bold">
+                        Invitation sent successfully!
+                    </span>
+                </div>
+            </section>
         </div>
-
         <!-- FOOTER -->
         <footer
             class="footer d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-white gap-3 gap-md-7 w-100">
@@ -156,15 +175,9 @@
 
     </div>
 
-    <script>
-        document.querySelector('.table-responsive').scrollLeft = 0;
-
-    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/JS/materials-toggle.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
-
 </body>
 
 </html>

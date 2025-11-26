@@ -25,10 +25,10 @@
                 class="container-flued d-flex justify-content-between align-items-center p-6 flex-wrap lomax-header-inner">
                 <!-- Logo + Back -->
                 <div class="d-flex align-items-center">
-                    <a href="index.html">
+                    <a href="/index.html">
                         <img src="assets/images/lomax_logo.svg" alt="Lomax Logo" class="lomax-logo me-3" />
                     </a>
-                    <a href="index.html" class="text-uppercase fs-14 fw-bold text-orange back-link">Back to Home</a>
+                    <a href="/index.html" class="text-uppercase fs-14 fw-bold text-orange back-link">Back to Home</a>
                 </div>
 
                 <!-- User -->
@@ -97,38 +97,114 @@
                 class="text-center text-white d-flex flex-column justify-content-center align-items-center hero banner-inner"
                 style="background: url('assets/images/lomax-welcom-section-bg-img.png') center/cover no-repeat;">
                 <img src="assets/images/LomaxRender-welcom-section-img.png" alt="" class="absolute">
-                <div class="hero-content position-relative d-flex flex-column gap-4">
-                    <h1 class="fw-bold fs-55">support</h1>
-                    <p style="max-width: 430px;">Your centralised hub for everything you and your team need to
-                        confidently install, promote, and
-                        support Lomax products.</p>
+                <div class="hero-content position-relative">
+                    <h1 class="fw-bold fs-55">Add New Personnel</h1>
                 </div>
             </section>
         </div>
 
         <div class="section-main">
 
-            <!-- ALERT NOTE -->
-            <section class="training-note bg-green">
-                <div
-                    class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center align-items-start gap-3">
-                    <span class="text-white fs-18 fw-bold">
-                        YOUR PERSONAL TRAINING STATUS: TRAINING REQUIRED
-                    </span>
-                    <span class="text-white fs-18 fw-bold">
-                        DAYS UNTIL CERTIFICATION EXPIRES: 224 DAYS
-                    </span>
-                </div>
-            </section>
-
-
             <!-- MAIN GRID -->
             <section
                 class="container d-flex flex-column justify-content-center align-items-center w-100 section-main-inner">
                 <div class="d-flex flex-column align-items-center justify-content-center gap-8 w-100">
-                    <h3 class="text-dark-blue fw-bold fs-30 text-center">Email us for any help or support question</h3>
-                    <a href="mailto:info@lomaxsystem.com"
-                        class="text-dark-blue fw-bold fs-20 text-center">info@lomaxsystem.com</a>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-4 w-100">
+                        <a href="#" class="text-muted fs-16 text-gray-desc text-left w-100">Go back
+                        </a>
+                        <h3 class="text-dark-blue fw-bold fs-30">Add Personnel</h3>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-4 w-100">
+                        <div class="row g-4 w-100">
+                            <div class="col-md-12">
+                                <label class="mb-2 fs-16 fw-semibold text-dark-blue">Country</label>
+                                <select id="adminSelect" class="form-select fs-16 fw-medium text-gray-desc w-50"
+                                    required="">
+                                    <option value="" disabled="" selected="">Select country
+                                    </option>
+                                    <option value="admin">Admin</option>
+                                    <option value="manager">Manager</option>
+                                    <option value="trainee">Trainee</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="mb-2 fs-16 fw-semibold text-dark-blue">Installation Partner</label>
+                                <select id="adminSelect" class="form-select fs-16 fw-medium text-gray-desc w-50"
+                                    required="">
+                                    <option value="" disabled="" selected="">Select installation partner
+                                    </option>
+                                    <option value="admin">Admin</option>
+                                    <option value="manager">Manager</option>
+                                    <option value="trainee">Trainee</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="d-flex flex-column justify-content-center gap-4 w-100 invite-team">
+                        <label class="mb-3 fs-20 fw-semibold text-dark-blue">MIGHTY</label>
+                        <div class="table-responsive w-100">
+                            <table class="table align-middle custom-table m-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Name</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Role</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Email</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Date Joined</th>
+                                        <th scope="col" colspan="2" class="text-dark-blue fw-bold fs-16">Certification
+                                            Expiry</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div
+                                                class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
+                                                <span class="fw-medium fs-16">John Smith</span>
+                                                <span
+                                                    class="badge bg-orange text-white fw-medium fs-8 pt-1">ADMIN</span>
+                                            </div>
+                                        </td>
+                                        <td class="fw-medium fs-16">General Manager
+                                        </td>
+                                        <td class="fw-medium fs-16">
+                                            john.smith@email.com
+                                        </td>
+                                        <td class="fw-medium fs-16">22/07/25</td>
+                                        <td class="fw-medium fs-16"></td>
+                                        <td colspan="2" class="text-end">
+                                            <button class="btn-primary w-100 fs-12">SEND
+                                                TRAINING
+                                                LINK</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="fw-medium fs-16">Name</td>
+                                        <td class="fw-medium fs-16">Role</td>
+                                        <td class="fw-medium fs-16">Email</td>
+                                        <td class="fw-medium fs-16">DD/MM/YY</td>
+                                        <td class="fw-medium fs-16"></td>
+                                        <td colspan="2" class="text-end ">
+                                            <button class="btn-secondary fs-12 w-100">+ ADD NEW TEAM
+                                                MEMBER</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-end w-100">
+                            <button class="btn-primary fs-12">INVITE TEAM MEMBERS</button>
+                        </div>
+                        <p class="text-muted fs-16 text-gray-desc text-end w-100">You can new team members at any
+                            time
+                        </p>
+                    </div>
+
                 </div>
             </section>
 
@@ -140,7 +216,7 @@
             <div class="container d-flex flex-column gap-7">
                 <div
                     class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100 gap-2 gap-md-0">
-                    <a href="index.html">
+                    <a href="/index.html">
                         <img src="assets/images/lo_max-footer_logo.svg" alt="Lomax Logo" class="lomax-logo-footer" />
                     </a>
                     <p class="small mb-0 fs-20 fw-semibold">
@@ -162,9 +238,7 @@
     </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/JS/materials-toggle.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
-
 </body>
 
 </html>

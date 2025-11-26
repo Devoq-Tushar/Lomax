@@ -13,12 +13,12 @@
     <!-- <link rel="stylesheet" href="css/utilities.css" /> -->
 
     <link rel="stylesheet" href="assets/CSS/style.min.css" />
-
 </head>
 
-<body class="bg-white">
+<body>
 
     <div class="main">
+
         <!-- HEADER -->
         <header class="shadow-sm sticky-top lomax-header">
             <div
@@ -90,49 +90,56 @@
             </div>
         </header>
 
-
         <!-- banner -->
         <div class="banner-section">
             <section
                 class="text-center text-white d-flex flex-column justify-content-center align-items-center hero banner-inner"
                 style="background: url('assets/images/lomax-welcom-section-bg-img.png') center/cover no-repeat;">
                 <img src="assets/images/LomaxRender-welcom-section-img.png" alt="" class="absolute">
-                <div class="hero-content position-relative d-flex flex-column gap-4">
-                    <h1 class="fw-bold fs-55">support</h1>
-                    <p style="max-width: 430px;">Your centralised hub for everything you and your team need to
-                        confidently install, promote, and
+                <div class="hero-content position-relative">
+                    <h1 class="fw-bold fs-55">Welcome to the <br /> Lomax System Support Hub</h1>
+                    <p class="mt-3">Your centralised hub for everything you and your team need <br> to confidently
+                        install, promote,
+                        and
                         support Lomax products.</p>
                 </div>
             </section>
         </div>
 
+
         <div class="section-main">
-
-            <!-- ALERT NOTE -->
-            <section class="training-note bg-green">
-                <div
-                    class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center align-items-start gap-3">
-                    <span class="text-white fs-18 fw-bold">
-                        YOUR PERSONAL TRAINING STATUS: TRAINING REQUIRED
-                    </span>
-                    <span class="text-white fs-18 fw-bold">
-                        DAYS UNTIL CERTIFICATION EXPIRES: 224 DAYS
-                    </span>
-                </div>
-            </section>
-
-
             <!-- MAIN GRID -->
             <section
-                class="container d-flex flex-column justify-content-center align-items-center w-100 section-main-inner">
-                <div class="d-flex flex-column align-items-center justify-content-center gap-8 w-100">
-                    <h3 class="text-dark-blue fw-bold fs-30 text-center">Email us for any help or support question</h3>
-                    <a href="mailto:info@lomaxsystem.com"
-                        class="text-dark-blue fw-bold fs-20 text-center">info@lomaxsystem.com</a>
+                class="container d-flex flex-column justify-content-center align-items-center section-main-inner gap-8">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                    <h3 class="text-dark-blue fw-bold fs-30">Login</h3>
                 </div>
-            </section>
 
+                <form class="bg-form form rounded-3 w-100 max-width">
+                    <div class="text-start w-100">
+                        <input type="email" class="fs-16 w-100 fw-medium form-control" placeholder="Email" required />
+                    </div>
+                    <div class="text-start w-100">
+                        <input type="password" class="fs-16 w-100 fw-medium form-control" placeholder="Password"
+                            required />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button type="submit" class="login-btn-w btn-primary">LOGIN</button>
+                        </div>
+                        <a href="forgot-password.html"
+                            class="d-flex justify-content-center align-items-center text-gray-desc fw-medium fs-16">Forgot
+                            password?</a>
+
+                        <div class="">
+                            <a href="#" class="text-gray-desc fs-16">Not registered? Create an
+                                account</a>
+                        </div>
+                    </div>
+                </form>
+            </section>
         </div>
+
 
         <!-- FOOTER -->
         <footer
@@ -156,15 +163,9 @@
 
     </div>
 
-    <script>
-        document.querySelector('.table-responsive').scrollLeft = 0;
-
-    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/JS/materials-toggle.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
-
 </body>
 
 </html>

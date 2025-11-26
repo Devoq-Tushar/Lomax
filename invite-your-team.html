@@ -111,7 +111,7 @@
                 <div class="d-flex flex-column align-items-center justify-content-center gap-8 w-100">
                     <div class="d-flex flex-column justify-content-center align-items-center gap-4">
                         <h3 class="text-dark-blue fw-bold fs-30">Invite your team to be trained</h3>
-                        <p class="fs-18 text-gray-desc text-center" style="max-width: 800px;">To fully access the
+                        <p class="fs-18 text-gray-desc text-center desc-max-width">To fully access the
                             Support Hub a
                             minimum of one team
                             member within your company must have completed the certification training.
@@ -123,7 +123,8 @@
                             <table class="table align-middle custom-table m-0">
                                 <thead>
                                     <tr>
-                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Name</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">First name</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Last name</th>
                                         <th scope="col" class="text-dark-blue fw-bold fs-16">Role</th>
                                         <th scope="col" class="text-dark-blue fw-bold fs-16">Email</th>
                                         <th scope="col" class="text-dark-blue fw-bold fs-16">Date Joined</th>
@@ -134,7 +135,7 @@
 
                                 <tbody>
                                     <tr>
-                                        <td>
+                                        <td class="first-name">
                                             <div
                                                 class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
                                                 <span class="fw-medium fs-16">John Smith</span>
@@ -142,14 +143,15 @@
                                                     class="badge bg-orange text-white fw-medium fs-8 pt-1">ADMIN</span>
                                             </div>
                                         </td>
-                                        <td class="fw-medium fs-16">General Manager
+                                        <td class="fw-medium fs-16 last-name">Smith
                                         </td>
-                                        <td class="fw-medium fs-16">
+                                        <td class="fw-medium fs-16 invite-role">General Manager
+                                        </td>
+                                        <td class="fw-medium fs-16 email">
                                             john.smith@email.com
                                         </td>
-                                        <td class="fw-medium fs-16">22/07/25</td>
-                                        <td class="fw-medium fs-16"></td>
-                                        <td colspan="2" class="text-end">
+                                        <td class="fw-medium fs-16 invite-date-of-join">22/07/25</td>
+                                        <td colspan="2" class="text-end invite-table-form-button">
                                             <button class="btn-primary w-100 fs-12">SEND
                                                 TRAINING
                                                 LINK</button>
@@ -157,12 +159,13 @@
                                     </tr>
 
                                     <tr>
-                                        <td class="fw-medium fs-16">Name</td>
-                                        <td class="fw-medium fs-16">Role</td>
-                                        <td class="fw-medium fs-16">Email</td>
-                                        <td class="fw-medium fs-16">DD/MM/YY</td>
-                                        <td class="fw-medium fs-16"></td>
-                                        <td colspan="2" class="text-end ">
+                                        <td class="fw-medium fs-16 first-name">First Name</td>
+                                        <td class="fw-medium fs-16 last-name">Last name</td>
+
+                                        <td class="fw-medium fs-16 invite-role">Role</td>
+                                        <td class="fw-medium fs-16 email">Email</td>
+                                        <td class="fw-medium fs-16 invite-date-of-join">DD/MM/YY</td>
+                                        <td colspan="2" class="text-end invite-table-form-button">
                                             <button class="btn-secondary fs-12 w-100">+ ADD NEW TEAM
                                                 MEMBER</button>
                                         </td>
