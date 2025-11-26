@@ -22,6 +22,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('fontspring-demo-proximanova-semibold-webfont.woff2') format('woff2'),
+        url('fontspring-demo-proximanova-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     font-family: 'Proxima Nova', Arial, sans-serif !important;

@@ -2,12 +2,25 @@
     background-color: $text-white;
 
     .lomax-header-inner {
+        max-width: 1250px;
+        place-self: anchor-center;
         padding: 28px 30px !important;
+        width: 100%;
 
         @media(max-width: 767px) {
             padding: 24px !important;
         }
     }
+
+    .navbar-nav {
+        gap: 40px;
+
+        @media(max-width: 1200px) {
+            gap: 20px;
+        }
+
+    }
+
 
     .user-profile {
         @media(max-width: 767px) {
@@ -44,7 +57,7 @@
     }
 
     .support-hub {
-        background: $bg-black;
+        background: $bg-black-2;
         font-size: 0.95rem;
         letter-spacing: 1px;
         text-transform: uppercase;

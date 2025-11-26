@@ -6,6 +6,12 @@
         padding: 24px 24px;
     }
 
+
+    .container {
+        max-width: 1190px;
+    }
+
+
     .lomax-logo-footer {
         height: 90px;
 
@@ -26,6 +32,115 @@
         @media(max-width: 767px) {
             line-height: 30px;
             margin: 0 !important;
+        }
+    }
+}
+
+
+.footer-second {
+
+    @media (max-width: 768px) {
+            text-align: center;
+    }
+
+    .footer-second-logo {
+        margin: 0px !important;
+
+        @media (max-width: 768px) {
+            align-items: center !important;
+        }
+        p {
+            color: $text-gray-dark;
+        }
+    }
+
+    .footer-list-main {
+        .footer-list-main-inner {
+            flex-wrap: wrap;
+            justify-content: start !important;
+
+             @media (max-width: 768px) {
+                margin-top: 20px;
+            }
+
+        .footer-list-1 {
+
+             @media (max-width: 768px) {
+                max-width: 165px !important;
+                width: 100%;
+                gap: 12px !important;
+        }
+
+         @media (max-width: 554px) {
+                                max-width: 200px !important;
+            }
+
+            .footer-list-inner {
+
+                @media (max-width: 768px) {
+                        gap: 8px !important; // Reduce gap for small screens
+                }
+
+
+                a {
+                    color: $text-white;
+                    text-decoration: none;
+                }
+
+                ul {
+                    list-style: none;
+                    text-align: left;
+                    padding: 0px !important;
+
+                    li {
+                        list-style: none;
+                        margin-bottom: 24px;
+
+                         @media (max-width: 554px) {
+                        margin-bottom: 12px;
+                            }
+
+                        &::marker {
+                            content: "";
+                        }
+
+                        label {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: $text-white;
+                            margin-bottom: 12px;
+
+                             @media (max-width: 554px) {
+                        margin-bottom: 4px;
+                            font-size: 16px;
+                            }
+
+                        }
+
+                        a {
+                            display: block;
+                        }
+
+                        img {
+                            @media (max-width: 554px) {
+                        width: 20px;
+                        height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+    .copyright {
+        color: $text-gray-dark;
+        margin-top: 80px !important;
+
+        @media (max-width: 768px) {
+                margin-top: 40px !important;
+                text-align: center;
         }
     }
 }

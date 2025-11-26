@@ -1,7 +1,7 @@
 const quizData = [
     {
         id: "1",
-        image: "../assets/images/quize/trainig-img-1.png",
+        image: "assets/images/quize/trainig-img-1.png",
         title: "1. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What possible environmental factors must you consider when deploying an indoor hoarding that has been designed specifically for indoor use only",
@@ -14,7 +14,7 @@ const quizData = [
     },
     {
         id: "2",
-        image: "../assets/images/quize/trainig-img-2.png",
+        image: "assets/images/quize/trainig-img-2.png",
         title: "2. Information about the image:",
         desc: "Proper installation begins with aligning the track system. Use the provided alignment template to ensure a level and secure fit. Always double-check mounting points before final installation.",
         question: "What is the maximum spacing interval allowed between each ‘stack of counterweights’ on any hoarding configuration",
@@ -27,7 +27,7 @@ const quizData = [
     },
     {
         id: "3",
-        image: "../assets/images/quize/trainig-img-3.png",
+        image: "assets/images/quize/trainig-img-3.png",
         title: "3. Information about the image:",
         desc: "After hardware installation, the system requires calibration. The Lomax Calibration Tool helps synchronize the display panels and set operational boundaries. This step ensures smooth functionality.",
         question: "What is the correct spacing between each screw that is required to attach your hoarding panels correctly",
@@ -40,7 +40,7 @@ const quizData = [
     },
     {
         id: "4",
-        image: "../assets/images/quize/trainig-img-4.png",
+        image: "assets/images/quize/trainig-img-4.png",
         title: "4. Information about the image:",
         desc: "If an issue occurs, check the LED status on the control unit. Common errors include signal interference, power supply issues, or panel misalignment. Refer to the Troubleshooting Guide for detailed steps.",
         question: "What is the function of the timber cross brace studs on the rear of the hoarding",
@@ -53,7 +53,7 @@ const quizData = [
     },
     {
         id: "5",
-        image: "../assets/images/quize/trainig-img-5.png",
+        image: "assets/images/quize/trainig-img-5.png",
         title: "5. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the minimum screw size required to correctly attach hoarding panels on a standard indoor hoarding",
@@ -66,7 +66,7 @@ const quizData = [
     },
     {
         id: "6",
-        image: "../assets/images/quize/trainig-img-6.png",
+        image: "assets/images/quize/trainig-img-6.png",
         title: "6. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the correct frequency of spacing that you must attach / screw the timber cross brace stud to the upright vertical timbers",
@@ -79,7 +79,7 @@ const quizData = [
     },
     {
         id: "7",
-        image: "../assets/images/quize/trainig-img-7.png",
+        image: "assets/images/quize/trainig-img-7.png",
         title: "7. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "When, and how many ‘threaded safety rods’ should be used on the rear stack of counterweights when deploying a ‘double stack solution’",
@@ -92,7 +92,7 @@ const quizData = [
     },
     {
         id: "8",
-        image: "../assets/images/quize/trainig-img-8.png",
+        image: "assets/images/quize/trainig-img-8.png",
         title: "8. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What size of vertical timber stud has the counterweight been specifically designed to receive",
@@ -105,7 +105,7 @@ const quizData = [
     },
     {
         id: "9",
-        image: "../assets/images/quize/trainig-img-9.png",
+        image: "assets/images/quize/trainig-img-9.png",
         title: "9. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "If you need to extend a vertical timber with an overlapping joining stud, how much must that joining stud overlap the main timbers above and below the actual join",
@@ -118,7 +118,7 @@ const quizData = [
     },
     {
         id: "10",
-        image: "../assets/images/quize/trainig-img-10.png",
+        image: "assets/images/quize/trainig-img-10.png",
         title: "10. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the minimum screw size and gauge required when applying a joining stud to vertical timbers",
@@ -131,7 +131,7 @@ const quizData = [
     },
     {
         id: "11",
-        image: "../assets/images/quize/trainig-img-11.png",
+        image: "assets/images/quize/trainig-img-11.png",
         title: "11. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "At the point the metal Support Posts meet the vertical timber stud there are multiple screw holes available for attachment – How many must be utilised on each post",
@@ -144,7 +144,7 @@ const quizData = [
     },
     {
         id: "12",
-        image: "../assets/images/quize/trainig-img-12.png",
+        image: "assets/images/quize/trainig-img-12.png",
         title: "12. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the minimum panel thickness allowed on any hoarding",
@@ -157,7 +157,7 @@ const quizData = [
     },
     {
         id: "13",
-        image: "../assets/images/quize/trainig-img-13.png",
+        image: "assets/images/quize/trainig-img-13.png",
         title: "13. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is maximum panel height allowed for a free-standing outdoor hoarding configuration",
@@ -170,7 +170,7 @@ const quizData = [
     },
     {
         id: "14",
-        image: "../assets/images/quize/trainig-img-14.png",
+        image: "assets/images/quize/trainig-img-14.png",
         title: "14. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is maximum panel height allowed for a free-standing indoor hoarding configuration",
@@ -183,7 +183,7 @@ const quizData = [
     },
     {
         id: "15",
-        image: "../assets/images/quize/trainig-img-15.png",
+        image: "assets/images/quize/trainig-img-15.png",
         title: "15. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the footprint depth of a single stack of counterweights",
@@ -196,7 +196,7 @@ const quizData = [
     },
     {
         id: "16",
-        image: "../assets/images/quize/trainig-img-16.png",
+        image: "assets/images/quize/trainig-img-16.png",
         title: "16. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "Which statement is true regarding the addition of shade cloth to outdoor hoardings",
@@ -209,7 +209,7 @@ const quizData = [
     },
     {
         id: "17",
-        image: "../assets/images/quize/trainig-img-17.png",
+        image: "assets/images/quize/trainig-img-17.png",
         title: "17. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the minimum quantity of weights are required on a 2.4mH outdoor hoarding to achieve 23m/s wind (83Kph)",
@@ -222,7 +222,7 @@ const quizData = [
     },
     {
         id: "18",
-        image: "../assets/images/quize/trainig-img-18.png",
+        image: "assets/images/quize/trainig-img-18.png",
         title: "18. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the minimum quantity of weights are required on a 3.6mH indoor hoarding",
@@ -235,7 +235,7 @@ const quizData = [
     },
     {
         id: "19",
-        image: "../assets/images/quize/trainig-img-19.png",
+        image: "assets/images/quize/trainig-img-19.png",
         title: "19. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "What is the total weight of one Standard Lomax counterweight?",
@@ -248,7 +248,7 @@ const quizData = [
     },
     {
         id: "20",
-        image: "../assets/images/quize/trainig-img-20.png",
+        image: "assets/images/quize/trainig-img-20.png",
         title: "20. Information about the image:",
         desc: "The Lomax Track System is mounted on ceilings and securely holds the display panels. It ensures smooth operation and proper alignment for the visual display components across various locations.",
         question: "Why is the Lomax System Temporary Fencing solution considered to be a ‘Safe Pedestrian Zone’ design?",
@@ -261,7 +261,7 @@ const quizData = [
     },
     {
         id: "21",
-        image: "../assets/images/quize/trainig-img-21.png",
+        image: "assets/images/quize/trainig-img-20.png",
         title: "21. Information about the image:",
         desc: "You must not omit or remove any Lomax System components. All parts are engineered to work together; removing any compromises safety, structural integrity, and compliance with the Technical Guide",
         question: "Is it Ok to omit or remove any ‘Lomax System’ components from the build process",
@@ -278,7 +278,7 @@ const quizContainer = document.getElementById("quizContainer");
 
 quizData.forEach(q => {
     const quizHTML = `
-  <div class="w-100 d-flex flex-column flex-md-row justify-content-between align-items-center gap-5 quiz-item" id="${q.id}">
+  <div class="w-100 d-flex flex-column flex-md-row justify-content-between align-items-start gap-5 quiz-item" id="${q.id}">
     <div class="quize-img">
       <img src="${q.image}" alt="Quiz Image">
     </div>
@@ -323,14 +323,14 @@ document.querySelectorAll(".quiz-item").forEach(item => {
 
             if (btn.dataset.correct === "true") {
                 btn.classList.add("correct");
-                img.src = "../assets/images/quize/correct-icn.svg";
+                img.src = "assets/images/quize/correct-icn.svg";
                 img.alt = "Correct";
                 text.innerHTML = `CORRECT <br /> Great job — you selected the right answer!`;
                 feedback.classList.add("show", "success");
                 feedback.classList.remove("error");
             } else {
                 btn.classList.add("incorrect");
-                img.src = "../assets/images/quize/wrong-icn.svg";
+                img.src = "assets/images/quize/wrong-icn.svg";
                 img.alt = "Incorrect";
                 text.innerHTML = `INCORRECT`;
                 feedback.classList.add("show", "error");
