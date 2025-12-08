@@ -20,11 +20,12 @@
             tbody {
                 td {
                     text-align: left;
-                    padding: 5.2px 10px;
+                    padding: 12px 12px;
                     border: 1px solid $border-secondary; // full borders around all sides
                     vertical-align: middle;
                     color: $text-turnary;
                     letter-spacing: -0.5px;
+                    line-height: 26px;
                 }
 
                 .delete-button {

@@ -2,12 +2,12 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
+@import 'components/fonts';
 
 /* base */
 @import 'base/typography';
 
 /* components */
-@import 'components/fonts';
 @import 'components/utilities';
 @import 'components/cards';
 @import 'components/custom_table';

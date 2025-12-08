@@ -5,6 +5,11 @@
     flex-direction: column;
     padding: 0 20px !important;
 
+    @media(max-width: 767px) {
+        padding: 20px !important;
+
+    }
+
     .parter-card {
         border-radius: 5px;
         overflow: hidden;
@@ -36,6 +41,7 @@
 
         button {
             padding: 7px 20px !important;
+            letter-spacing: 0.3px;
 
             @media(max-width: 767px) {
                 padding: 6px 16px !important;

@@ -2,7 +2,7 @@
 
 .training-note {
     background-color: $orange;
-    letter-spacing: 0.5px;
+    letter-spacing: normal;
     padding: 7.5px 64px;
 
     @media(max-width: 767px) {
@@ -25,22 +25,24 @@
         padding: 0 20px !important;
     }
 
-    
+
 
 
     .text-button {
         color: $text-white !important;
+
         @media(max-width: 1280px) {
             font-size: 12px;
         }
+
         @media(max-width: 576px) {
             font-size: 11px;
-        } 
+        }
 
-        img{
+        img {
             @media(max-width: 1280px) {
                 width: 10%;
-            } 
+            }
         }
     }
 
@@ -56,20 +58,21 @@
     }
 
 
-    .btn-secondary{
-       @media(max-width: 1280px) {
+    .btn-secondary {
+        @media(max-width: 1280px) {
             padding: 10px 10px !important;
             font-size: 12px;
             gap: 10px !important;
         }
+
         @media(max-width: 576px) {
             font-size: 11px;
         }
-        
-        img{
+
+        img {
             @media(max-width: 1280px) {
                 width: 10%;
-            } 
+            }
         }
     }
 }

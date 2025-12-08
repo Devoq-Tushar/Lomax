@@ -32,6 +32,15 @@
             color: $text-secondary !important;
             padding: 9.3px 20px;
 
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover,
+            &:-webkit-autofill:focus,
+            &:-webkit-autofill:active {
+                -webkit-box-shadow: 0 0 0 1000px #fff inset !important; // change to your bg
+                -webkit-text-fill-color: #000 !important; // text color
+                transition: background-color 9999s ease-in-out 0s;
+            }
+
             @media(max-width: 767px) {
                 padding: 6px 16px;
             }
