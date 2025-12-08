@@ -144,13 +144,20 @@
                                     <tr>
                                         <td class="name">
                                             <div
-                                                class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
+                                                class="d-flex flex-row align-items-center justify-content-between gap-2">
                                                 <span class="fw-medium fs-16">John Smith</span>
                                                 <span
                                                     class="badge bg-orange text-white fw-ragular fs-8 pt-1">ADMIN</span>
                                             </div>
                                         </td>
-                                        <td class="fw-medium fs-16 role">General Manager
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
                                         </td>
                                         <td class="fw-medium fs-16 email">
                                             john.smith@email.com
@@ -169,11 +176,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><span class="fw-medium fs-16 name text-danger">Tom Smit</span></td>
-                                        <td class="fw-medium fs-16 role text-danger">General Manager</td>
-                                        <td class="fw-medium fs-16 email text-danger">tom.smit@email.com</td>
-                                        <td class="fw-medium fs-16 date-of-join text-danger">22/07/25</td>
-                                        <td class="fw-medium fs-16 certification-expiry text-danger">250 days</td>
+                                        <td><span class="fw-medium fs-16 name text-red-table">Tom Smit</span></td>
+                                        <td class="fw-medium fs-16 role text-red-table">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
+                                        <td class="fw-medium fs-16 email text-red-table">tom.smit@email.com</td>
+                                        <td class="fw-medium fs-16 date-of-join text-red-table">22/07/25</td>
+                                        <td class="fw-medium fs-16 certification-expiry text-red-table">250 days</td>
                                         <td class="table-form-button">
                                             <div class="d-flex justify-content-center align-items-center gap-1">
                                                 <button class="btn-primary w-100 fs-12">SEND NEW
@@ -187,7 +202,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Emily Johnson</span></td>
-                                        <td class="fw-medium fs-16 role">HR Executive</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">emily.j@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">18/05/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">46 days</td>
@@ -204,7 +227,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Michael Brown</span></td>
-                                        <td class="fw-medium fs-16 role">Project Lead</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">michael.b@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">10/06/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">300 days</td>
@@ -221,7 +252,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Sophia Davis</span></td>
-                                        <td class="fw-medium fs-16 role">Marketing Manager</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">sophia.d@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">02/09/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">260 days</td>
@@ -238,7 +277,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Liam Wilson</span></td>
-                                        <td class="fw-medium fs-16 role">Team Supervisor</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">liam.w@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">05/08/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">290 days</td>
@@ -255,7 +302,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Olivia Martinez</span></td>
-                                        <td class="fw-medium fs-16 role">Finance Officer</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">olivia.m@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">28/03/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">199 days</td>
@@ -272,7 +327,15 @@
                                     </tr>
                                     <tr>
                                         <td><span class="fw-medium fs-16 name">Ethan Taylor</span></td>
-                                        <td class="fw-medium fs-16 role">IT Support</td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select id="adminSelect"
+                                                class="form-select fs-16 fw-medium text-gray-desc border-0" required>
+                                                <option value="" disabled selected>Role
+                                                </option>
+                                                <option value="mark_jackson">General Manager</option>
+                                                <option value="sarah_connor">Manager</option>
+                                            </select>
+                                        </td>
                                         <td class="fw-medium fs-16 email">ethan.t@email.com</td>
                                         <td class="fw-medium fs-16 date-of-join">30/04/25</td>
                                         <td class="fw-medium fs-16 certification-expiry">240 days</td>
