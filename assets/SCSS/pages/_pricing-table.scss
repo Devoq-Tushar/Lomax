@@ -59,7 +59,8 @@
                 .plan-title {
                     font-size: 21px;
                     font-weight: 600;
-                    color: $dark-blue;
+                    color: $text-dark-gray;
+                    line-height: 21px;
 
                     @media(max-width: 767px) {
                         font-size: 16px;
@@ -71,6 +72,7 @@
                     font-weight: 600;
                     color: $text-dark-gray;
                     text-transform: uppercase;
+                    line-height: 11px;
 
                     @media(max-width: 767px) {
                         font-size: 11px;
@@ -169,6 +171,7 @@
                     font-size: 58px;
                     font-weight: 800;
                     color: $orange-dark;
+                    line-height: 71px;
 
                     @media(max-width: 767px) {
                         font-size: 40px;
@@ -206,7 +209,7 @@
                     font-weight: 600;
                     font-size: 16px;
                     line-height: 12px;
-                    padding: 12px 20px;
+                    padding: 19.6px 20px;
                     line-height: 16px;
 
                     @media(max-width: 767px) {

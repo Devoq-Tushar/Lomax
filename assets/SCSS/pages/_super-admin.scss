@@ -119,4 +119,13 @@
         }
 
     }
+
+    .doller-icn {
+        height: 44px;
+
+        @media(max-width: 767px) {
+            height: auto;
+        }
+
+    }
 }

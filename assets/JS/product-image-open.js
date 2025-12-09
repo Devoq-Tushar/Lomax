@@ -24,7 +24,7 @@ openButtons.forEach(btn => {
               <img src="../assets/images/image-icn.svg" alt="" class="img">
             </div>
             <h6 class="fs-20 text-dark-blue fw-bold">${folderName}${String(i).padStart(3, '0')}</h6>
-            <button class="btn-primary w-100">Download PDF</button>
+            <button class="btn-primary w-100 text-uppercase">Download PDF</button>
           </div>
         `;
       subSection.insertAdjacentHTML('beforeend', cardHTML);

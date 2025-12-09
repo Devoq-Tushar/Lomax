@@ -61,11 +61,27 @@
         font-size: 0.95rem;
         letter-spacing: 1px;
         text-transform: uppercase;
-        padding: 10px 90px !important;
+        padding: 9px 90px !important;
         letter-spacing: 0.4px;
 
         @media(max-width: 767px) {
             padding: 8px 24px !important;
         }
+    }
+}
+
+
+.lomax-header-main {
+
+    .lomax-header-inner {
+        max-width: 1250px;
+        place-self: anchor-center;
+        padding: 22.5px 30px !important;
+        width: 100%;
+
+        @media(max-width: 767px) {
+            padding: 24px !important;
+        }
+
     }
 }
