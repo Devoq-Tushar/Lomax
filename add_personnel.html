@@ -145,7 +145,7 @@
 
                     <div class="d-flex flex-column justify-content-center gap-4 w-100 invite-team">
                         <label class="mb-3 fs-20 fw-semibold text-dark-blue">MIGHTY</label>
-                        <div class="table-responsive w-100">
+                        <!-- <div class="table-responsive w-100">
                             <table class="table align-middle custom-table m-0">
                                 <thead>
                                     <tr>
@@ -192,7 +192,67 @@
                                     </tr>
                                 </tbody>
                             </table>
+                        </div> -->
+
+                        <div class="table-responsive w-100">
+                            <table class="table align-middle custom-table m-0" id="team2-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16 my-team">Name</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16 my-team">Role</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16 my-team">Email</th>
+                                        <th scope="col" class="text-dark-blue fw-bold fs-16">Date Joined</th>
+                                        <th scope="col" colspan="2" class="text-dark-blue fw-bold fs-16">Certification
+                                            Expiry</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="team2-body">
+                                    <!-- Existing Data Row -->
+                                    <tr>
+                                        <td class="name">
+                                            <div
+                                                class="d-flex flex-row align-items-center justify-content-between gap-2">
+                                                <span class="fw-medium fs-16">John Smith</span>
+                                                <span
+                                                    class="badge bg-orange text-white fw-medium fs-8 pt-1">ADMIN</span>
+                                            </div>
+                                        </td>
+                                        <td class="fw-medium fs-16 role">General Manager</td>
+                                        <td class="fw-medium fs-16 email">john.smith@email.com</td>
+                                        <td class="fw-medium fs-16 date-of-join">22/07/25</td>
+                                        <td class="fw-medium fs-16"></td>
+                                        <td colspan="2" class="text-end table-form-button"></td>
+                                    </tr>
+
+                                    <!-- Form Row -->
+                                    <tr class="form-row">
+                                        <td class="fw-medium fs-16 name">
+                                            <input type="text" placeholder="Name" class="w-100 border-0">
+                                        </td>
+                                        <td class="fw-medium fs-16 role">
+                                            <select class="form-select fs-16 fw-medium text-gray-desc w-100 border-0">
+                                                <option value="" disabled selected>Role</option>
+                                                <option value="admin">Admin</option>
+                                                <option value="manager">Manager</option>
+                                                <option value="trainee">Trainee</option>
+                                            </select>
+                                        </td>
+                                        <td class="fw-medium fs-16 email">
+                                            <input type="email" placeholder="Email" class="w-100 border-0">
+                                        </td>
+                                        <td class="fw-medium fs-16 date-of-join">
+                                            <input type="date" class="w-100 border-0">
+                                        </td>
+                                        <td class="fw-medium fs-16"></td>
+                                        <td colspan="2" class="text-end add-table-form-button">
+                                            <button class="btn-secondary fs-12 w-100 add-member-btn">+ ADD NEW TEAM
+                                                MEMBER</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
+
                         <div class="d-flex align-items-center justify-content-end w-100">
                             <button class="btn-primary fs-12">INVITE TEAM MEMBERS</button>
                         </div>
@@ -215,7 +275,7 @@
                     <a href="/index.html">
                         <img src="assets/images/lo_max-footer_logo.svg" alt="Lomax Logo" class="lomax-logo-footer" />
                     </a>
-                    <p class="small mb-0 fs-20 fw-semibold">
+                    <p class="small mb-0 fs-20 fw-medium">
                         For help and questions contact us:
                         <a href="mailto:info@lomaxsystem.com" class="text-orange">info@lomaxsystem.com</a>
                     </p>
@@ -235,6 +295,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/JS/profile-popup.js"></script>
+    <script src="assets/JS/add-new-team-member.js"></script>
 </body>
 
 </html>
