@@ -35,6 +35,16 @@
             background: rgba(0, 0, 0, 0.5);
         }
     }
+
+    .banner-inner-certified {
+        min-height: 328px;
+
+        @media(max-width: 767px) {
+            min-height: 100%;
+            padding: 0px 24px;
+            min-height: 150px;
+        }
+    }
 }
 
 

@@ -1,7 +1,7 @@
 const openButtons = document.querySelectorAll('.open-folder');
 const mainSection = document.getElementById('mainCardSection');
 const subSection = document.getElementById('subCardSection');
-const backBtn = document.getElementById('backBtn');
+// const backBtn = document.getElementById('backBtn');
 
 openButtons.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -10,8 +10,8 @@ openButtons.forEach(btn => {
     // Hide main section, show sub section and back button
     mainSection.classList.add('d-none');
     subSection.classList.remove('d-none');
-    backBtn.classList.remove('d-none');
-    backBtn.classList.add('d-flex');
+    // backBtn.classList.remove('d-none');
+    // backBtn.classList.add('d-flex');
 
     // Clear previous sub-cards
     subSection.innerHTML = '';
@@ -21,7 +21,7 @@ openButtons.forEach(btn => {
       const cardHTML = `
           <div class="card-secondary d-flex flex-column justify-content-center align-items-center text-center border-0 cursor-pointer flex-fill gap-3">
             <div class="d-flex justify-content-center align-items-center bg-turnary w-100 card-secondary-img">
-              <img src="../assets/images/image-icn.svg" alt="" class="img">
+              <img src="assets/images/image-icn.svg" alt="" class="img">
             </div>
             <h6 class="fs-20 text-dark-blue fw-bold">${folderName}${String(i).padStart(3, '0')}</h6>
             <button class="btn-primary w-100 text-uppercase">Download PDF</button>
@@ -33,8 +33,8 @@ openButtons.forEach(btn => {
 });
 
 // Back Button functionality
-backBtn.addEventListener('click', () => {
-  subSection.classList.add('d-none');
-  mainSection.classList.remove('d-none');
-  backBtn.classList.add('d-none');
-});
+// backBtn.addEventListener('click', () => {
+//   subSection.classList.add('d-none');
+//   mainSection.classList.remove('d-none');
+//   backBtn.classList.add('d-none');
+// });

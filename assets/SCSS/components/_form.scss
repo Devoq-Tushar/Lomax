@@ -129,3 +129,19 @@
         }
     }
 }
+
+.full-inducation {
+    padding-bottom: 40px !important;
+
+    @media(max-width: 767px) {
+        padding-bottom: 24px !important;
+    }
+}
+
+.company-finder {
+    padding-bottom: 120px !important;
+
+    @media(max-width: 767px) {
+        padding-bottom: 24px !important;
+    }
+}

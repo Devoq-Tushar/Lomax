@@ -81,6 +81,16 @@
 }
 
 
+.my-md-5 {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+
+    @media(max-width: 767px) {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
 /* Remove default Margin and padding */
 
 h1,
@@ -166,6 +176,22 @@ p {
 
     @media(max-width: 767px) {
         gap: 24px !important;
+    }
+}
+
+.gap-13 {
+    gap: 52px !important;
+
+    @media(max-width: 767px) {
+        gap: 24px !important;
+    }
+}
+
+.gap-14 {
+    gap: 57px !important;
+
+    @media(max-width: 767px) {
+        gap: 28px !important;
     }
 }
 
@@ -334,6 +360,13 @@ p {
     }
 }
 
+.lh-22 {
+    line-height: 22px !important;
+
+    @media(max-width: 767px) {
+        line-height: normal !important;
+    }
+}
 
 .lh-24 {
     line-height: 24px !important;
@@ -398,6 +431,10 @@ p {
 
 .text-danger {
     color: $text-red !important;
+}
+
+.text-danger-light {
+    color: $text-dardk-red !important;
 }
 
 .text-gray {
